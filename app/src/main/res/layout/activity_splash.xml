@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SplashActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/splashimg"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerInParent="true"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/signin_lottifile"
+        android:visibility="invisible"
+        app:lottie_fileName="signin_lottifile.json"
+        android:layout_gravity="center"
+        app:lottie_loop="true"
+        android:layout_above="@+id/bt_sign_in"
+        android:layout_marginBottom="50dp"
+        app:lottie_autoPlay="true"/>
+    <TextView
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in with Google"
+        android:id="@+id/sign_text"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:layout_above="@+id/bt_sign_in"
+        android:layout_marginLeft="10dp"/>
+        <com.google.android.gms.common.SignInButton
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/bt_sign_in"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="10dp"/>
+
+</RelativeLayout>

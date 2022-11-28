@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Drucine_Textile"

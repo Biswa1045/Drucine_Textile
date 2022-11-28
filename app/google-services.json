@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1014919147586",
+    "firebase_url": "https://drucine-8e092-default-rtdb.firebaseio.com",
+    "project_id": "drucine-8e092",
+    "storage_bucket": "drucine-8e092.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014919147586:android:5fa46e4ca6aa4cb4827ddb",
+        "android_client_info": {
+          "package_name": "com.biswa1045.drucine_textile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014919147586-sjdtus694ducaguo2q5lrfker0477s09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.biswa1045.drucine_textile",
+            "certificate_hash": "13c54078596a3c4444ea0171f129bca3f3943e05"
+          }
+        },
+        {
+          "client_id": "1014919147586-hiuclbk8c8s6j0hn2hmaact0831sf89c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRhUC0kE-n7FsWztRwAcsd_2QSmy8mvbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014919147586-hiuclbk8c8s6j0hn2hmaact0831sf89c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

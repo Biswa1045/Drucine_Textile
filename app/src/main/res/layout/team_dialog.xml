@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    app:cardCornerRadius="15dp"
+    android:layout_gravity="center"
+    android:layout_height="475dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_height="match_parent">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Details"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+     android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="25dp"
+            android:id="@+id/details_cancel"
+            android:layout_height="25dp"
+            android:padding="5dp"
+            android:src="@drawable/close"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="35dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginStart="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            android:layout_marginEnd="16dp"/>
+        <EditText
+            android:id="@+id/deatails_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/stk"
+            android:ems="10"
+            android:hint="Name/name to be print*"
+            android:inputType="textPhonetic"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#4C4A4A"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jersey Number"
+            android:layout_marginStart="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+
+            android:layout_marginEnd="16dp"/>
+        <EditText
+            android:id="@+id/deatails_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/stk"
+            android:ems="10"
+            android:hint="Jersey Number(if printed)"
+            android:inputType="textPhonetic"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#4C4A4A"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Size"
+            android:layout_marginStart="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            android:layout_marginEnd="16dp"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:id="@+id/deatails_size"
+            android:layout_height="34dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/stk"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remarks"
+            android:layout_marginStart="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            android:layout_marginEnd="16dp"/>
+        <EditText
+            android:id="@+id/deatails_remarks"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/stk"
+            android:ems="10"
+            android:hint="Enter Remarks"
+            android:inputType="textPhonetic"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="#4C4A4A"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/black"
+            android:id="@+id/deatails_desc"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/deatails_price"
+            android:text=""/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:backgroundTint="@color/green"
+            android:layout_marginStart="16dp"
+            android:id="@+id/deatails_cart"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:text="ADD TO CART"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

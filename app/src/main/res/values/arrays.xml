@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="id_activityScreenTitles">
+        <item></item>
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Orders</item>
+        <item>About</item>
+        <item>FAQs</item>
+
+    </string-array>
+    <array name="id_activityScreenIcon">
+
+
+        <item>@drawable/ic_launcher_foreground</item>
+        <item>@drawable/side_nav_bar</item>
+        <item>@drawable/account</item>
+        <item>@drawable/sent</item>
+        <item>@drawable/info</item>
+        <item>@drawable/support</item>
+
+
+
+    </array>
+
+</resources>
